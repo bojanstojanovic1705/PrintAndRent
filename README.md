@@ -90,8 +90,8 @@ Ovaj projekat je privatno vlasništvo i sva prava su zadržana.
 
 ## 👥 Tim
 
-- Razvoj i dizajn: Print & Rent Tim
-- Kontakt: [email zaštićen]
+- **Razvoj i dizajn**: Bojan Stojanović
+- **Kontakt**: [bojan.stojanovic.1705@gmail.com](mailto:bojan.stojanovic.1705@gmail.com)
 
 ## 🤝 Doprinos Projektu
 
