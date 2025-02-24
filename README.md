@@ -1,50 +1,98 @@
-# React + TypeScript + Vite
+# Print & Rent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Print & Rent je moderna web aplikacija za iznajmljivanje profesionalne opreme za štampu i skeniranje. Aplikacija je izrađena koristeći najnovije web tehnologije i pruža korisnicima jednostavan i intuitivan interfejs za pregled i rezervaciju opreme.
 
-Currently, two official plugins are available:
+## 🚀 Funkcionalnosti
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pregled Proizvoda**
+  - Detaljan prikaz dostupne opreme
+  - Filtriranje po kategorijama
+  - Pretraga proizvoda
+  - Detaljni prikaz specifikacija
 
-## Expanding the ESLint configuration
+- **Sistem Rezervacija**
+  - Online forma za rezervaciju
+  - Izbor perioda iznajmljivanja
+  - Automatski kalkulator cene
+  - Potvrda rezervacije
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Responsive Dizajn**
+  - Prilagođen svim uređajima
+  - Optimizovan za mobilne telefone
+  - Moderna i čista estetika
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Tehnologije
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Frontend**
+  - React 18
+  - TypeScript
+  - Tailwind CSS
+  - Framer Motion
+  - React Router v6
+  - Vite
+
+## 📦 Instalacija
+
+1. Klonirajte repozitorijum:
+```bash
+git clone https://github.com/bojanstojanovic1705/PrintAndRent.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Instalirajte zavisnosti:
+```bash
+cd PrintAndRent
+npm install
 ```
+
+3. Pokrenite razvojni server:
+```bash
+npm run dev
+```
+
+## 🌐 Struktura Projekta
+
+```
+PrintAndRent/
+├── src/
+│   ├── components/      # Reusable komponente
+│   ├── pages/          # Stranice aplikacije
+│   ├── hooks/          # Custom React hooks
+│   └── assets/         # Slike i drugi statički fajlovi
+├── public/             # Javni fajlovi
+└── ...config files     # Konfiguracioni fajlovi
+```
+
+## 📱 Stranice
+
+- **Početna** - Landing stranica sa glavnim informacijama
+- **Proizvodi** - Katalog dostupne opreme
+- **O Nama** - Informacije o kompaniji
+- **Kontakt** - Kontakt forma i informacije
+- **Usluge** - Pregled usluga koje nudimo
+
+## ✨ Glavne Karakteristike
+
+- **Animacije** - Smooth tranzicije i interaktivni elementi
+- **Performanse** - Optimizovano učitavanje i renderovanje
+- **SEO** - Implementirane SEO best practices
+- **Pristupačnost** - Prilagođeno svim korisnicima
+
+## 🔜 Planirane Funkcionalnosti
+
+- [ ] Sistem za online plaćanje
+- [ ] Admin panel za upravljanje proizvodima
+- [ ] Integracija sa email servisom
+- [ ] Sistem za praćenje statusa rezervacije
+
+## 📄 Licenca
+
+Ovaj projekat je privatno vlasništvo i sva prava su zadržana.
+
+## 👥 Tim
+
+- Razvoj i dizajn: Print & Rent Tim
+- Kontakt: [email zaštićen]
+
+## 🤝 Doprinos Projektu
+
+Trenutno je projekat zatvoren za eksterne doprinose. Za sve sugestije i prijave bugova, molimo vas da kontaktirate razvojni tim.
